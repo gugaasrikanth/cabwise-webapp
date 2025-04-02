@@ -1,6 +1,6 @@
 "use client";
 
-import React, { Suspense } from "react";
+import React from "react";
 import MapComponent from "../components/MapComponent";
 import { useSearchParams } from "next/navigation";
 
@@ -15,9 +15,9 @@ const Cabs = () => {
   const location2 = { lat: dropOffLat, lng: dropOffLng };
 
   return (
-    <Suspense>
+    <div>
       <MapComponent location1={location1} location2={location2} />
-    </Suspense>
+    </div>
   );
 };
 
