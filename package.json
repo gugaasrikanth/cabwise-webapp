@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^6.12.12",
+    "@headlessui/react": "^2.2.0",
+    "@heroicons/react": "^2.2.0",
     "@react-google-maps/api": "^2.20.6",
     "daisyui": "^5.0.9",
     "next": "15.2.4",
