@@ -1,0 +1,17 @@
+[
+  {
+    "provider": "Uber",
+    "ETA": 270,
+    "price": "240"
+  },
+  {
+    "provider": "Ola",
+    "ETA": 160,
+    "price": "217"
+  },
+  {
+    "provider": "Namma Yatri",
+    "ETA": 90,
+    "price": "180"
+  }
+]

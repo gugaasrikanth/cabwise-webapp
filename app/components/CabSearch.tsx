@@ -63,7 +63,7 @@ const CabSearch = () => {
             <img
               src="/two-arrows.png"
               alt="Button Icon"
-              className="w-12 h-12 hover:cursor-pointer"
+              className="w-12 h-12 hover:cursor-pointer md: rotate-90 lg:rotate-0"
             />
           </button>
         </div>
