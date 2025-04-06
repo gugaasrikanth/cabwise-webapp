@@ -5,7 +5,7 @@ const CabListing = () => {
   return (
     <>
       {data.map((ride, index) => (
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center" key={index}>
           <div
             className="stats shadow-xl mb-8 stats-vertical lg:stats-horizontal w-3xl items-center"
             key={index}
