@@ -5,7 +5,7 @@ import {
 } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
-const navigation: any[] = [
+const navigation: { name: string; href: string; current: boolean }[] = [
   // { name: "Features", href: "#", current: false },
   // { name: "Contact Us", href: "#", current: false },
 ];
